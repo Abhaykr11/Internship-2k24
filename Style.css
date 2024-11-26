@@ -1,0 +1,63 @@
+
+/*Table properties*/
+
+table
+{
+    width: 100%;
+    color: rgb(229, 24, 20);
+    height: 100%;
+    font-family: 'Lucida Sans';
+    border: 5 px solid green;
+    
+    /* border-collapse: collapse; */
+}
+th
+{
+    color: blueviolet;
+    align-items: center;
+    text-decoration: dashed;
+}
+td
+{
+    color: rgb(199, 15, 73);
+    text-align: center;
+    align-content: center;
+    
+}
+
+/*Card properties*/
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+  
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 8px;
+  
+  margin-bottom: 100px; 
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+
+h4 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+p {
+  margin: 5px 0;
+  color: #777;
+}
