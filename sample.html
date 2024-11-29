@@ -22,7 +22,7 @@
         This is the paragraph part
     </p>
 </body>
-</html> -->
+</html -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -33,6 +33,7 @@
 </head>
 <body>
     <p id="demo"></p>
+    <p id="demo1"></p>
     <script>
         // const x=10;
         // const y=40;
@@ -61,26 +62,22 @@
         // let y=3;
         // document.getElementById("demo").innerHTML=!(x===y)+"<br>"+(x>y);
         
-        //Numbers
-        let len=-16;
-        let wei=7.5;
-
-        //Strings
-        let color="Yellow";
-        let lastname="Jhonson";
-
-        //Boolean
-        let x=true;
-        let y=false;
-
-        //object
-        const person={firstname:"Jhon", lastname:"Doe"};
-
-        //Array Object
-        const cars=["Toyota","Renault","Honda"];
-
-        //Date object
-        const date=new Date("2022-11-07");
+       let x=10;
+       
+       if(x%2==0){
+        document.getElementById("demo").innerHTML="Element is even"
+       }
+       else{
+         document.getElementById("demo").innerHTML="Element is odd"
+       }
+       
+       let y=11;
+       if(y%2!=0){
+        document.getElementById("demo1").innerHTML="Element is odd"
+       }
+       else{
+         document.getElementById("demo1").innerHTML="Element is even"
+       }
 
     </script>
 </body>
