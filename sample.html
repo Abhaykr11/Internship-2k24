@@ -92,12 +92,59 @@
 //object
     // const animal={name:"Lion" ,breed:"Mammal"}
     // console.log(animal.name,animal.breed);
-   let games=['GTA 5','RDR','Spider man','Far cry']
-   games.push('Uncharted')
-   console.log(games)
+//    let games=['GTA 5','RDR','Spider man','Far cry']
+//    games.push('Uncharted')
+//    console.log(games)
 //    console.log(games[0])
-    games.pop()
-    console.log(games)    
+//     games.pop()
+//     console.log(games) 
+        // document.getElementById("demo").innerHTML=games.join(" pawan ");
+
+    // const time=new Date().getHours();
+    // let greetings;
+    // if(time<10)
+    // {
+    //     greetings="Good morning";
+    // }
+    // else if(time<20){
+    //     greetings="Good day"
+
+    // }
+    // else{
+    //     greetings="Good evening"
+    // }
+    // document.getElementById("demo").innerHTML=greetings;
+
+    //Switch
+    let day
+    switch(new Date().getDay()){
+        case 0:
+            day="Sunday";
+            break;
+        case 1:
+            day="Monday";
+            break;
+        case 2:
+            day="Tuesday";
+            break;
+        case 3:
+            day="Wednesday";
+            break;
+        case 4:
+            day="Thursday";
+            break;
+        case 5:
+            day="Friday";
+            break;
+        case 6:
+            day="Saturday";
+            break;
+    }
+    document.getElementById("demo").innerHTML=day;
+
+
+
+
     
     </script>
 </body>
