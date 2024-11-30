@@ -79,10 +79,15 @@
     //      document.getElementById("demo1").innerHTML="Element is even"
     //    }
 
-    function myfunc(a,b){
-        return a*b;
+    function myfunc(a){
+        if(a%2!=0){
+        return "Odd";
     }
-    document.getElementById("demo").innerHTML=myfunc(4,3);
+    else{
+        return "Even"
+    }
+}
+    document.getElementById("demo").innerHTML=myfunc(3);
 
     </script>
 </body>
