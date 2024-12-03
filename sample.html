@@ -32,8 +32,11 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="demo"></p>
-    <p id="demo1"></p>
+    <!-- <p id="demo"></p>
+    <p id="demo1"></p> -->
+    <button onclick="myfunc()">Replace</button>
+     <p id="demo">Please visit Moodabidri!</p>
+      
     <script>
         // const x=10;
         // const y=40;
@@ -115,35 +118,43 @@
     // }
     // document.getElementById("demo").innerHTML=greetings;
 
-    //Switch
-    let day
-    switch(new Date().getDay()){
-        case 0:
-            day="Sunday";
-            break;
-        case 1:
-            day="Monday";
-            break;
-        case 2:
-            day="Tuesday";
-            break;
-        case 3:
-            day="Wednesday";
-            break;
-        case 4:
-            day="Thursday";
-            break;
-        case 5:
-            day="Friday";
-            break;
-        case 6:
-            day="Saturday";
-            break;
-    }
-    document.getElementById("demo").innerHTML=day;
+//Switch
+    // let day
+    // switch(new Date().getDay()){
+    //     case 0:
+    //         day="Sunday";
+    //         break;
+    //     case 1:
+    //         day="Monday";
+    //         break;
+    //     case 2:
+    //         day="Tuesday";
+    //         break;
+    //     case 3:
+    //         day="Wednesday";
+    //         break;
+    //     case 4:
+    //         day="Thursday";
+    //         break;
+    //     case 5:
+    //         day="Friday";
+    //         break;
+    //     case 6:
+    //         day="Saturday";
+    //         break;
+    // }
+    // document.getElementById("demo").innerHTML=day;
 
+//String methods
+        // let text="Hi Windows";
+        // console.log(text);
+        // console.log(text.search("Windows"));
 
-
+     
+        function myfunc(){
+        let text=document.getElementById("demo").innerHTML;
+        document.getElementById("demo").innerHTML=text.replace("Moodabidri","Accelerlab");
+        }
 
     
     </script>
